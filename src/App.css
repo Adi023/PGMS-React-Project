@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+#op{
+  background-color: #263A29;
+}
+
+input ,textarea,select{
+  width: 25%;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  
+}
+
+label {
+  padding: 1px 12px 12px 0;
+  display: inline-block;
+  text-align: left;
+  color: #E7F6F2;
+  width: 160px;
+}
+
+input[type=submit],button {
+  background-color: #E7F6F2;
+  color: #263A29;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  margin-bottom: 30px;
+}
+
+table {
+  align-self: center;
+  background-color: aliceblue;
+  
+  margin: 10px;
+}
+th, td {
+  text-align: center;
+  padding: 15px;
+}
+td{
+  color: #263A29;
+}
+th {
+  background-color:#263A29;
+  color: white;
+}

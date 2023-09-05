@@ -1,0 +1,41 @@
+
+body {
+    font-family: "Lato", sans-serif;
+    /* color: #E7F6F2; */
+  }
+
+ hr{
+  border: 3px solid rgb(231, 237, 231);
+  border-radius: 5px;
+ }
+  
+
+  .sidenav {
+    height:100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 10px;
+    margin-left: 0;
+    color: #E7F6F2;
+  }
+  
+  .sidenav  a {
+    padding: 6px 6px 6px 2px;
+    text-decoration: none;
+    font-size: 15px;
+    /* color:#E7F6F2; */
+    display: block;
+  }
+  
+  .sidenav  a:hover {
+    color: #f1f1f1;
+  }
+  
+ 
+  
+ 
